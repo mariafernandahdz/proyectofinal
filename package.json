@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/mariafernandahdz/proyectofinal/issues"
   },
-  "homepage": "https://github.com/mariafernandahdz/proyectofinal#readme"
+  "homepage": "https://github.com/mariafernandahdz/proyectofinal#readme",
+  "devDependencies": {
+    "webpack": "^5.18.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
+  }
 }
