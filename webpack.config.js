@@ -1,4 +1,5 @@
 const path = require('path')
+const ESLintPlugin = require('eslint-webpack-plugin')
 
 module.exports = {
     //Especificando el archivo index de entrada
@@ -20,5 +21,6 @@ module.exports = {
                 use: ['babel-loader']
             },
         ]
-    }
+    },
+    plugins: [new ESLintPlugin()]
 }
