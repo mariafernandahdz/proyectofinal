@@ -1,0 +1,20 @@
+{
+  "name": "proyectofinal",
+  "version": "1.0.0",
+  "description": "Proyecto final de la materia Diseño de aplicaciones web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariafernandahdz/proyectofinal.git"
+  },
+  "keywords": [],
+  "author": "Fernanda Hernandez <fernandahdzc@outlook.com>",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/mariafernandahdz/proyectofinal/issues"
+  },
+  "homepage": "https://github.com/mariafernandahdz/proyectofinal#readme"
+}
