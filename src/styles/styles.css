@@ -1,0 +1,248 @@
+img {
+  max-width: 200%;
+}
+
+body {
+  background: #fff;
+  font-family: sans-serif;
+  font-size: calc(var(--font-size) * 1em);
+  padding-top: 250px;
+  transition: padding-top 0.5s ease;
+  margin: auto;
+  display: block;
+}
+
+
+/*Cabecera*/
+
+header {
+  width: 100%;
+  height: 180px;
+  background: #fff;
+  text-align: center;
+  position: static;
+  top: 0;
+  
+}
+
+/*Estilos de la cabecera*/
+
+.imagen-cabecera {
+  position: absolute;
+  float:left;
+  width: 700px;
+  height: 500px;
+  margin:  0px 150px;
+  top:-9px;
+}
+
+.logo{
+  margin: 0px 100px;
+}
+
+#pond1 {
+display: flex;
+Justify-content:center;
+align-items:center;
+}
+#pond2 {
+display: flex;
+Justify-content:center;
+align-items:center;
+}
+#pond3 {
+display: flex;
+Justify-content:center;
+align-items:center;
+}
+
+#pond4 {
+display: flex;
+Justify-content:center;
+align-items:center;
+}
+#pond5 {
+display: flex;
+Justify-content:center;
+align-items:center;
+}
+.calendario-cabecera {
+  float: right;
+  width: 50px;
+  height: 60px;
+  margin-left: 15px;
+}
+
+.correo-cabecera {
+  float: right;
+  width: 50px;
+  height: 60px;
+  margin: 15px 15px 15px 10px;
+}
+
+.facebook-cabecera {
+  float: right;
+  width: 50px;
+  height: 50px;
+  margin: 20px 15px 15px 10px;
+}
+
+
+.twitter-cabecera {
+  float: right;
+  width: 50px;
+  height: 60px;
+  margin: 15px 15px 15px 10px;
+}
+
+.youtube-cabecera {
+  float: right;
+  width: 50px;
+  height: 60px;
+  margin-left: 15px;
+}
+
+
+/*Estilos del menu*/
+
+.menu {
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  background: #1B396A;
+  margin: 0px 0px 150px;
+  top:450px;
+}
+
+.menu a{
+  color: #fff;
+  display: inline-block;
+  padding:  1px 10px 8px;
+  line-height: 1;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.menu a:hover {
+  background: rgba(204, 225, 253, 0.918);
+  
+}
+
+.dropdown-menu{
+  background: #1B396A;
+}
+
+/*Contenido*/
+
+.contenido {
+  max-width: 90%;
+  margin: 86px;
+}
+
+p {
+  margin-bottom: 2rem;
+  line-height: 2;
+  color: #000000;
+  text-align: justify;
+}
+
+section {
+  margin: 10px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+#footer{
+color:white!important;
+text-align: center!important;
+}
+
+.footer{
+  text-align: center;
+  bottom: 0;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  background: #1B396A;
+}
+
+/*Tarjeta jefe del depto*/
+
+.depto img{
+  width: 18%;
+  border-radius: 50%;
+  padding-left: 10px;
+  }
+
+.depto{
+  background-color: #f1ebeb;
+  height: 145px;
+  width: 800px;
+  margin: auto;
+  border-radius: 15px;
+  text-align: left;
+  box-shadow: 10px 10px 10px #b6b6b6;
+}
+
+.jefe-depto{
+  font-family: Helvetica, sans-serif;
+  color: #000000;
+}
+
+.card-text{
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  padding-left: 150px;
+  margin-top: -100px;
+}
+
+
+/*Contenido profesores*/
+.h1{
+  text-align: center;
+  }
+
+.titulo-pagina{
+  margin: 86px;
+}
+  
+  .tarjetas{
+  display: flex;
+  justify-content: center;
+  }
+  
+  .tarjeta img{
+  width: 100%;
+  border-radius: 50%;
+  }
+  
+  .tarjeta{
+  width: 20%;
+  margin: 0px 30px 30px 30px;
+  background: #ffffff;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 5px 5px 5px #adadad;
+  border-radius: 5px;
+  }
+  
+  h3{
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  }
+  
+  .profesion{
+  font-size: 12px;
+  color: rgb(0, 0, 0);
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  }
+  
+  .tarjeta:hover{
+    background: rgba(227, 247, 253, 0.27);
+  }
+  
